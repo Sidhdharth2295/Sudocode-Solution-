@@ -1,0 +1,85 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXndphmUJZEEKhKAK708zj_TzqAG_ZnbUehe_iFngQoNHQ5_GnWLrrUroKxu1sMLx4kY&usqp=CAU") !important;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-image: url("https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=");
+}
+
+.form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+p {
+  color: red;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  font-size: large;
+  height: 30%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 5px !important;
+  border: 1px solid black;
+  padding: 10px;
+}
+.submit {
+  margin-top: 10px !important;
+}
+button {
+  width: 100%;
+  padding: 5px;
+  /* background-color: rgb(14,14,129); */
+  background-color: rgb(9, 77, 13) !important;
+  color: white;
+  font-size: large !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px !important;
+  border: 0px;
+  margin-top: 15px !important;
+  width: 100%;
+}
+button:hover {
+  font-weight: bolder;
+  background-color: rgb(14, 14, 129);
+}
+
+.SignInButton {
+  background-color: rgb(18, 28, 158) !important;
+  margin-top: 5px !important;
+}
+h5{
+    text-align: center;
+    margin-top: 10px !important;
+}
+.icon-link {
+    /* padding: 15px; */
+    text-align: center;
+  }
